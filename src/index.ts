@@ -8,6 +8,21 @@ import { convertToUsuario, formatDateToBrazilian } from './tools';
 import ExcelJS from 'exceljs';
 import path from 'path';
 import fs from 'fs'
+import puppeteer from "puppeteer-core";
+
+(async () => {
+    const browser = await puppeteer.launch({
+        executablePath: '/usr/bin/google-chrome',
+        headless: true,
+        args: ['--no-sandbox', '--disable-setuid-sandbox']
+    });
+
+    const page = await browser.newPage();
+    await page.goto('https://example.com');
+    console.log(await page.title());
+
+    await browser.close();
+})();
 
 const owner = [process.env.NUM_JONI != undefined ? process.env.NUM_JONI : "", process.env.NUM_MAT != undefined ? process.env.NUM_MAT : ""]
 const botNumber = process.env.NUM_BOT;
