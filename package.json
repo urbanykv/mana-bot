@@ -39,6 +39,7 @@
     "whatsapp-web.js": "^1.26.0"
   },
   "devDependencies": {
-    "@types/node-schedule": "^2.1.7"
+    "@types/node-schedule": "^2.1.7",
+    "@vercel/node": "^3.2.26"
   }
 }
