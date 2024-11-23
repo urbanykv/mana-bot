@@ -214,13 +214,13 @@ client.on('message', async (msg) => {
 });
 
 function agendarEnvios(client: Client, owner: string[]) {
-    scheduleJob('45 21 * * *', async () => {
+    scheduleJob('30 7 * * *', async () => {
         if (listaAtiva.length === 0) {
             console.log("antes da escala");
             await escalaAutomatica();
         }
     })
-    scheduleJob('48 21 * * *', async () => {
+    scheduleJob('8 * * *', async () => {
         if (listaAtiva.length === 0) {
             console.log("antes da escala");
             await escalaAutomatica();
