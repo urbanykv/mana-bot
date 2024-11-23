@@ -1,0 +1,26 @@
+2024/11/22-21:41:12.320 4dc8 Reusing MANIFEST C:\Users\mathe\source\repos\mana-bot\.wwebjs_auth\session-client-one\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/11/22-21:41:12.327 4dc8 Recovering log #261
+2024/11/22-21:41:12.470 4dc8 Reusing old log C:\Users\mathe\source\repos\mana-bot\.wwebjs_auth\session-client-one\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000261.log 
+2024/11/22-21:41:16.189 3b90 Level-0 table #267: started
+2024/11/22-21:41:16.207 3b90 Level-0 table #267: 919902 bytes OK
+2024/11/22-21:41:16.209 3b90 Delete type=0 #261
+2024/11/22-21:41:16.210 3b90 Manual compaction at level-0 from '\x00h\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00i\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/11/22-21:41:16.270 4dc8 Compacting 1@1 + 2@2 files
+2024/11/22-21:41:16.424 4dc8 Generated table #268@1: 75374 keys, 2241437 bytes
+2024/11/22-21:41:16.457 4dc8 Generated table #269@1: 15676 keys, 619568 bytes
+2024/11/22-21:41:16.457 4dc8 Compacted 1@1 + 2@2 files => 2861005 bytes
+2024/11/22-21:41:16.459 4dc8 compacted to: files[ 0 0 2 0 0 0 0 ]
+2024/11/22-21:41:16.459 4dc8 Delete type=2 #263
+2024/11/22-21:41:16.460 4dc8 Delete type=2 #264
+2024/11/22-21:41:16.460 4dc8 Delete type=2 #267
+2024/11/22-21:45:01.346 3d84 Level-0 table #271: started
+2024/11/22-21:45:01.369 3d84 Level-0 table #271: 1016636 bytes OK
+2024/11/22-21:45:01.371 3d84 Delete type=0 #266
+2024/11/22-21:45:01.635 3d84 Compacting 1@1 + 2@2 files
+2024/11/22-21:45:01.775 3d84 Generated table #272@1: 76465 keys, 2240861 bytes
+2024/11/22-21:45:01.802 3d84 Generated table #273@1: 16533 keys, 707426 bytes
+2024/11/22-21:45:01.802 3d84 Compacted 1@1 + 2@2 files => 2948287 bytes
+2024/11/22-21:45:01.804 3d84 compacted to: files[ 0 0 2 0 0 0 0 ]
+2024/11/22-21:45:01.804 3d84 Delete type=2 #268
+2024/11/22-21:45:01.804 3d84 Delete type=2 #269
+2024/11/22-21:45:01.804 3d84 Delete type=2 #271
