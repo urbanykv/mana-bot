@@ -203,11 +203,11 @@ client.on('message', async (msg) => {
     if (text.trim() === "/normas") {
         await client.sendMessage(from, `Normas do grupo DEVOCIONAL
 
-- Sem comentários muito extravagantes a cada mensagem dos participantes. *(De preferência somente reagir com o emoji)*
+- Sem comentários muito extravagantes a cada mensagem dos participantes. *(de preferência somente reagir com o emoji)*
 
 - Sem conversas paralelas, que faça perder o foco e o sentido do grupo.
 
-- Respeitar o tempo limite, inserido pelos LÍDERES. *(Caso for enviar áudio no máximo 4 minutos).*
+- Respeitar o tempo limite, inserido pelos LÍDERES. *(caso for enviar áudio, no máximo 4 minutos).*
 
 - Favor não se esquecer da data para o envio do seu devocional.`);
     }
