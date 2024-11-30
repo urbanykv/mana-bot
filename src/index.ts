@@ -10,6 +10,18 @@ import path from 'path';
 import fs from 'fs'
 import puppeteer from "puppeteer-core";
 
+(async () => {
+  const browser = await puppeteer.launch({
+    executablePath: '/usr/bin/chromium', // Caminho do Chromium
+    args: ['--no-sandbox', '--disable-setuid-sandbox'] // Adicionando as flags
+  });
+
+  const page = await browser.newPage();
+  await page.goto('http://example.com');
+  await browser.close();
+})();
+
+
 const owner = [process.env.NUM_JONI != undefined ? process.env.NUM_JONI : "", process.env.NUM_MAT != undefined ? process.env.NUM_MAT : ""]
 const botNumber = process.env.NUM_BOT;
 const reconnectDelay = 30000;
