@@ -1,2 +1,2 @@
 # mana-bot
-Robô de WhatsApp para administração de Devocionais
+Robô de WhatsApp com Scheduler para lembrar o devocional.
